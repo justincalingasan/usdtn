@@ -1,1 +1,1 @@
-# USDTN - US Diesel Nationals
+# USDTN - US Diesel Truckin Nationals

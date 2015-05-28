@@ -43,6 +43,27 @@ a{
 }
 
 
+
+
+/**
+*** Bootstrap overrides
+**/
+
+.well{
+	color:#333;
+}
+.btn-success{
+	background:#ffba00;
+	border-color:#ffba00;
+	color:#000;
+}
+.btn-success:hover{
+	background:#e5a700;
+	border-color:#e5a700;
+}
+
+
+
 /**
 *** Header
 **/
@@ -81,8 +102,20 @@ a{
 
 
 /**
+*** Content
+**/
+.page-container{
+	background:#000;
+}
+
+
+
+
+
+/**
 *** Footer
 **/
+
 .footer{
 	border-top:1px solid #eee;
 	background: rgba(0,0,0,0.5);
@@ -104,8 +137,19 @@ a{
 
 
 /**
+*** Sidebar
+**/
+.sidebar{
+	margin:30px 0;
+}
+
+
+
+
+/**
 *** Homepage
 **/
+
 .front-page{
 	margin-top:50px;
 	background:#000;
@@ -115,15 +159,176 @@ a{
 
 
 
+/**
+*** Countdown Timer
+**/
+
+.tminus_countdown{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.TIE-fighter-dashboard{
+	background:#000 !important;
+	height:60px !important
+}
+.TIE-fighter-digit{
+	font:60px Arial, Helvetica, sans-serif !important;
+	text-shadow: none !important;
+}
+.TIE-fighter-tripdash,
+.TIE-fighter-dash{
+	background:#fff !important;
+	height:60px !important;
+	box-shadow: none !important;
+}
+.TIE-fighter-dash{
+	width:85px !important
+}
+.TIE-fighter-tripdash{
+	width:100px !important;
+}
+.TIE-fighter-digit{
+	width:32px !important;
+}
+.TIE-fighter-dash_title{
+	top:12px !important;
+}
+
+
+
+
+/**
+*** Header - Slider default
+**/
+
+.banner { position: relative; overflow: auto; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }
+
+
+
+
+
+/**
+*** Header - Slider overrides
+**/
+
+.banner{
+	min-height:400px;
+	position:relative;
+	width:100% !important;
+	text-align:center;
+	margin-bottom:30px;
+}
+.banner-content{
+	position: absolute;
+	z-index: 1;
+	top: 13%;
+	width: 100%;
+	min-height: 200px;
+	display: block;
+}
+.banner ul{
+	margin:0;
+	padding:0;
+}
+.banner ul li{
+	display:block;
+	min-height:400px;
+}
+.banner ul li.one{
+	background:url(images/1.jpg) no-repeat center center;
+}
+.banner ul li.two{
+	background:url(images/2.jpg) no-repeat center center;
+}
+.banner ul li.three{
+	background:url(images/3.jpg) no-repeat center center;
+}
+.banner ul li.four{
+	background:url(images/4.jpg) no-repeat center center;
+}
+.banner ul li.five{
+	background:url(images/5.jpg) no-repeat center center;
+}
+.banner ul li.six{
+	background:url(images/6.jpg) no-repeat center center;
+}
+.banner ul li.seven{
+	background:url(images/7.jpg) no-repeat center center;
+}
+.banner ul li.eight{
+	background:url(images/8.jpg) no-repeat center center;
+}
+.banner ul li.nine{
+	background:url(images/9.jpg) no-repeat center center;
+}
+.banner ul li.ten{
+	background:url(images/10.jpg) no-repeat center center;
+}
+.banner ul li.one,
+.banner ul li.two,
+.banner ul li.three,
+.banner ul li.four,
+.banner ul li.five,
+.banner ul li.six,
+.banner ul li.seven,
+.banner ul li.eight,
+.banner ul li.nine,
+.banner ul li.ten{
+	background-size:cover;
+}
+.banner .dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+}
+
+.banner .dots li.active {
+	background: #fff;
+	opacity: 1;
+}
+.banner .dots li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 4px;
+	text-indent: -999em;
+	border: 2px solid #fff;
+	border-radius: 6px;
+	cursor: pointer;
+	opacity: .4;
+	-webkit-transition: background .5s, opacity .5s;
+	-moz-transition: background .5s, opacity .5s;
+	transition: background .5s, opacity .5s;
+}
+
+
+
+
+
+
+/**
+*** Homepage sponsors
+**/
+
+.home-sponsors img{
+	max-width:100%;
+	height:auto;
+}
+.home-sponsors .sponsor-link{
+	display:block;
+}
+
+
+
+
 
 /**
 *** FAQ
 **/
-
-.arconix-faq-wrap{
-	background:#333 !important;
-	border:none;
-}
 
 
 

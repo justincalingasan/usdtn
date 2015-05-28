@@ -1,11 +1,12 @@
 <?php
 /*
-Template Name: Single Col - 
+Template Name: Homepage Template
 */
 ?>
 
 <?php get_header();?>
 
+<!--home template-->
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <div class="container">
 

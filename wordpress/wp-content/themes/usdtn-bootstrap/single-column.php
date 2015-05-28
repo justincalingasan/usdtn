@@ -1,14 +1,14 @@
 <?php
 /*
-Template Name: Single Col
+Template Name: Single Column Page
 */
 ?>
 
-
 <?php get_header();?>
 
+<!--single column template-->
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<div class="container">
+<div class="container page-container">
 
 	<div class="col-md-12">
 	<?php the_content(); ?>
